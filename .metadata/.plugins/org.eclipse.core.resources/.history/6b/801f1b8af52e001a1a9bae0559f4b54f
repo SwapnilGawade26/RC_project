@@ -1,0 +1,26 @@
+package com.example.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class RCRegistration {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	
+	private String rCNo;
+	
+	private String ownerName;
+	
+	private String city;
+	
+	private String registrationDate;
+	
+	private vehicalType vehicalType;
+	
+	private String color;
+	
+}

@@ -1,0 +1,13 @@
+package com.example.demo.model;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class vehicalType {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	
+	
+}

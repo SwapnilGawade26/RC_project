@@ -1,0 +1,12 @@
+package com.example.demo.model;
+
+import javax.persistence.GeneratedValue;
+
+public class RCRegistration {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	
+	
+}
